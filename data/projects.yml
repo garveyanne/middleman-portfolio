@@ -1,0 +1,19 @@
+- name: Verifi
+  description: A web-application used to risk-assess your social media content against guidelines, in order to secure your account and prevent content being flagged.
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Luxifi
+  description: A mock web-application which allows you to rent out your designer goods and to rent designer goods from others.
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: WatchList
+  description: A web-application used to keep track of movies you’ve watched or want to watch.
+  image: projects/placeholder.png
+  url: https://www.google.com
+
+- name: Final project
+  description: Decent description of the app
+  image: projects/placeholder.png
+  url: https://www.google.com

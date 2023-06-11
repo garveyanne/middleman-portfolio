@@ -2,16 +2,30 @@
   description: A web-application used to risk-assess your social media content against guidelines, in order to secure your account and prevent content being flagged.
   image: projects/verifi_home.jpg
   url: hhttps://www.verifi.social/
+  tags:
+   - devicon-rails-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+    - devicon-bootstrap-plain-wordmark
 
 - name: Luxifi
   description: A mock web-application which allows you to rent out your designer goods and to rent designer goods from others.
   image: projects/luxifi_home.png
   url: https://luxifi.herokuapp.com/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain
+    - devicon-bootstrap-plain-wordmark
 
 - name: WatchList
   description: A web-application used to keep track of movies you’ve watched or want to watch.
   image: projects/placeholder.png
-  url: https://www.google.com
+  url: https://watchlist-tokyo.herokuapp.com/
+  tags:
+    - devicon-rails-plain-wordmark
+    - devicon-heroku-original
+    - devicon-javascript-plain- devicon-bootstrap-plain-wordmark
 
 # - name: Final project
 #   description: Decent description of the app

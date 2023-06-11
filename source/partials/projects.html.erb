@@ -16,6 +16,11 @@
                 </div>
                 <p><%= project.description %></p>
               </div>
+              <div class="card-tags">
+                <% project.tags.each do |tag| %>
+                  <span><i class="<%= tag %>"></i></span>
+                <% end %>
+              </div>
             </div>
           <% end %>
         </div>

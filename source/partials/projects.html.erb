@@ -2,24 +2,19 @@
   <div class="col-12">
     <div class="container">
       <div id="projects">
-        <h2 class="text-center">Projects</h2>
+        <h1 class="text-center">Projects</h1>
         <div class="cards">
           <% data.projects.each do |project| %>
             <div class="card-product">
               <%= image_tag project.image, alt: "project image" %>
               <div class="card-product-infos w-100">
+                <h2><%= project.name %></h2>
+                <p><%= project.description %></p>
                 <div class="d-flex justify-content-between align-items-center">
-                  <h2><%= project.name %></h2>
                   <% link_to project.url, class: 'external-link', target: '_blank' do %>
                     <i class="fas fa-external-link-alt"></i>
                   <% end %>
                 </div>
-                <p><%= project.description %></p>
-              </div>
-              <div class="card-tags">
-                <% project.tags.each do |tag| %>
-                  <span><i class="<%= tag %>"></i></span>
-                <% end %>
               </div>
             </div>
           <% end %>

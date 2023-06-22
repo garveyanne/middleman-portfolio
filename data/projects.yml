@@ -20,7 +20,7 @@
 
 - name: WatchList
   description: A web-application used to keep track of movies you’ve watched or want to watch.
-  image: projects/placeholder.png
+  image: projects/watchlist_home.png
   url: https://watchlist-tokyo.herokuapp.com/
   tags:
     - devicon-rails-plain-wordmark
